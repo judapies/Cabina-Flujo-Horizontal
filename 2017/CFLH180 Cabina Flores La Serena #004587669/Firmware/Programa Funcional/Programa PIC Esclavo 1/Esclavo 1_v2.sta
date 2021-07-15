@@ -1,0 +1,56 @@
+
+ROM used: 1806 (6%)
+          1806 (6%) including unused fragments
+
+          1 Average locations per line
+          5 Average locations per statement
+
+RAM used: 486 (24%) at main() level
+          491 (24%) worst case
+
+Stack used: 5 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  227   107  29  Esclavo 1_v2.c
+  451     0   0  C:\Program Files (x86)\PICC\Devices\18F4550.h
+ 2172   260  71  math.h
+----- -----
+ 2850   367 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     44   1   1             @delay_ms1
+0     24   1   1             @I2C_WRITE_1
+0     60   2   3   106  2.1  sensores
+0    114   3   3   280  3.7  ssp_interupt
+0     42   1   0   117  3.0  temp1s
+0     36   1   0   167  3.0  LeerInflow
+0     38   1   0   167  3.0  LeerDownflow
+0     50   1   2    93  3.3  LeerVidrioAbajo
+0     50   1   2    93  3.3  LeerVidriook
+0     38   1   0   167  3.0  LeerFiltroInflow
+0     38   1   0   167  3.0  LeerFiltroDownflow
+0   1114  31   2  1793  6.4  MAIN
+
+Program metrics:
+    Functions               10
+    Statements              367
+    Comments                398
+    Volume (V)              4658
+    Difficilty (D)          34.5
+    Effort to implement (E) 160705
+    Time to implement (T)   2 hours, 29 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   18
+    Maintainability (MI)    63
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000A0   154  0  
+000A2-07FFE  1648  30958  
+
+
+

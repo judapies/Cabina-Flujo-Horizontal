@@ -1,0 +1,9 @@
+>>> Warning 202 "CabinaCFLH.c" Line 66(7,9): Variable never used:   Ta
+>>> Warning 202 "CabinaCFLH.c" Line 66(10,12): Variable never used:   Tb
+>>> Warning 202 "CabinaCFLH.c" Line 66(13,17): Variable never used:   TICK
+>>> Warning 202 "CabinaCFLH.c" Line 67(6,15): Variable never used:   BIT_START
+>>> Warning 202 "D:\Laboratorio\Cabina de Flujo Laminar Horizontal\2021\CFLH 120 CTL Company SAS #004588638 OP2021152\Firmware 2.1.1 - Sin Presion\Funciones.h" Line 31(10,12): Variable never used:   VG
+>>> Warning 202 "D:\Laboratorio\Cabina de Flujo Laminar Horizontal\2021\CFLH 120 CTL Company SAS #004588638 OP2021152\Firmware 2.1.1 - Sin Presion\Funciones.h" Line 31(17,19): Variable never used:   VS
+>>> Warning 202 "D:\Laboratorio\Cabina de Flujo Laminar Horizontal\2021\CFLH 120 CTL Company SAS #004588638 OP2021152\Firmware 2.1.1 - Sin Presion\Funciones.h" Line 31(24,26): Variable never used:   G2
+      Memory usage:   ROM=61%      RAM=11% - 13%
+      0 Errors,  7 Warnings.

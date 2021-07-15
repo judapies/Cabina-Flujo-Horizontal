@@ -1,0 +1,236 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     lcdline
+005     MAIN.Menu
+006     MAIN.n_opcionH
+007     MAIN.n_opcionL
+008     MAIN.unidad
+009     MAIN.Flecha
+00A     MAIN.Flecha1
+00B     MAIN.Flecha2
+00C     MAIN.nMenuL
+00D     MAIN.nMenuH
+00E.0   MAIN.estadouv
+00E.1   MAIN.estadofl
+00E.2   MAIN.estadomv
+00E.3   MAIN.Flanco
+00E.4   MAIN.Flanco1
+00E.5   MAIN.Flanco2
+00E.6   MAIN.Flanco3
+00F     MAIN.paso
+010     MAIN.Velocidad
+011-013 MAIN.t
+014-017 MAIN.clave
+018-01B MAIN.contrasena
+01C     @PSTRINGCN_95.P1
+01C     @PRINTF_D_95.P2
+01C     lcd_init.i
+01C     MAIN.@SCRATCH1
+01D     mensajes.x
+01D     @PRINTF_D_95.P1
+01D     lcd_init.@SCRATCH1
+01D     MAIN.@SCRATCH2
+01D     @PSTRINGCN_95.@SCRATCH1
+01E     velocidades.x
+01E     mensajes.y
+01E     @PSTRINGCN_95.@SCRATCH2
+01E     @PRINTF_D_95.@SCRATCH1
+01F     @PSTRINGC_95.@SCRATCH1
+01F     @PRINTF_D_95.@SCRATCH2
+020     @PSTRINGC_95.@SCRATCH2
+020     @PRINTF_D_95.@SCRATCH3
+021     @PRINTF_D_95.@SCRATCH4
+022     @DIV88.P1
+022     lcd_putc.c
+023     @DIV88.P1
+023     lcd_gotoxy.x
+023     @delay_ms1.P1
+024     lcd_gotoxy.y
+024     @DIV88.@SCRATCH1
+025     lcd_gotoxy.address
+026     lcd_send_byte.address
+027     lcd_send_byte.n
+028     lcd_read_byte.low
+028     lcd_send_byte.@SCRATCH1
+029     lcd_read_byte.high
+029     lcd_send_nibble.n
+02A     lcd_read_byte.@SCRATCH1
+F81     lcd
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+08AE  @delay_ms1
+0004  LCD_INIT_STRING
+08EE  lcd_read_byte
+08D6  lcd_send_nibble
+0926  lcd_send_byte
+095C  lcd_init
+09B6  lcd_gotoxy
+09EC  @goto10088
+0A0E  lcd_putc
+0B86  mensajes
+0018  @const104
+0A58  @PSTRINGC_95
+002C  @const106
+0040  @const107
+0054  @const108
+0068  @const109
+0C08  velocidades
+0C74  MAIN
+007C  @const114
+0092  @const115
+00A8  @const116
+00BE  @const117
+00D4  @const140
+00EA  @const141
+0100  @const142
+0A78  @PSTRINGCN_95
+0A96  @DIV88
+0ABE  @PRINTF_D_95
+0116  @const153
+012A  @const154
+013E  @const155
+0152  @const156
+0166  @const159
+017A  @const160
+018E  @const161
+01A2  @const163
+01B8  @const165
+01CE  @const166
+01E4  @const167
+01F0  @const168
+01FE  @const169
+0214  @const170
+022A  @const171
+0240  @const172
+0256  @const173
+026C  @const174
+0282  @const175
+0298  @const176
+02AE  @const177
+02C4  @const178
+02DA  @const179
+02F0  @const180
+0306  @const181
+031C  @const182
+0332  @const183
+0348  @const184
+035E  @const186
+0372  @const187
+0386  @const188
+0392  @const189
+039E  @const190
+03B4  @const191
+03CA  @const192
+03E0  @const193
+03F6  @const194
+040C  @const195
+0422  @const196
+0438  @const197
+044E  @const198
+0464  @const199
+047A  @const200
+0490  @const201
+04A6  @const202
+04BC  @const203
+04D2  @const204
+04E8  @const205
+04FE  @const207
+0512  @const208
+0526  @const209
+0532  @const210
+053E  @const211
+0554  @const212
+056A  @const213
+0580  @const214
+0596  @const215
+05AC  @const216
+05C2  @const217
+05D8  @const218
+05EE  @const219
+0604  @const220
+061A  @const221
+0630  @const222
+0646  @const223
+065C  @const224
+0672  @const225
+0688  @const226
+069E  @const228
+06B4  @const229
+06CA  @const231
+06E0  @const232
+06F6  @const233
+070C  @const234
+0722  @const236
+0738  @const237
+074E  @const238
+0764  @const241
+077A  @const242
+0790  @const243
+07A6  @const244
+07BC  @const246
+07D2  @const247
+07E8  @const248
+07FE  @const249
+0814  @const251
+082A  @const252
+0840  @const253
+0856  @const256
+086C  @const257
+0882  @const258
+0898  @const259
+0C74  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    H:\JP\Cabina de Flujo Laminar Horizontal\2014\Mini Cabina\Firmware\
+
+Project Files:
+    Cabina_Flujo_Horizontal_V02.c
+    C:\Archivos de programa\PICC\devices\18F4550.h
+    C:\Archivos de programa\PICC\drivers\LCD420.c
+
+Units:
+    H:\JP\Cabina de Flujo Laminar Horizontal\2014\Mini Cabina\Firmware\Cabina_Flujo_Horizontal_V02 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      Cabina_Flujo_Horizontal_V02.err
+    Ext Symbols: Cabina_Flujo_Horizontal_V02.esym
+    INHX32:      Cabina_Flujo_Horizontal_V02.hex
+    Symbols:     Cabina_Flujo_Horizontal_V02.sym
+    List:        Cabina_Flujo_Horizontal_V02.lst
+    Debug/COFF:  Cabina_Flujo_Horizontal_V02.cof
+    Project:     Cabina_Flujo_Horizontal_V02.PJT
+    Call Tree:   Cabina_Flujo_Horizontal_V02.tre
+    Statistics:  Cabina_Flujo_Horizontal_V02.sta

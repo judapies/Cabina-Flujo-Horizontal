@@ -1,0 +1,3 @@
+>>> Warning 202 "Maestro_v2.c" Line 44(7,18): Variable never used:   Baje_Vidrio
+      Memory usage:   ROM=93%      RAM=78% - 80%
+      0 Errors,  1 Warnings.

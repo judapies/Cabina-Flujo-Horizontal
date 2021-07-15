@@ -1,0 +1,166 @@
+
+ROM used: 17058 (52%)
+          17060 (52%) including unused fragments
+
+          4 Average locations per line
+          10 Average locations per statement
+
+RAM used: 236 (12%) at main() level
+          277 (14%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1252  1083  66  CabinaCFLH.c
+  451     0   0  C:\Program Files (x86)\PICC\Devices\18F4550.h
+ 2172   260  16  MATH.h
+  172    73   4  LCD420.c
+  240   218  13  Funciones.h
+----- -----
+ 4287  1634 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0   1             @delay_ms1
+0    862   3  20  1124 10.7  CEIL_FLOOR
+0    166   0  10             @FLT
+0     56   0   4             @SFTOI
+0     54   0   2             @ITOF
+0    380   1  14             @DIVFF
+0    632   2  16             @ADDFF
+0    308   1  11             @MULFF
+0     22   0   4    43  2.1  floor
+0     36   0   0             @const208
+0     42   0   1   134  2.2  lcd_send_nibble
+0     68   0   3   287  3.9  lcd_send_byte
+0    102   0   2   422  4.7  lcd_init
+0     54   0   3   321  5.5  lcd_gotoxy
+0     50   0   0             @goto10582
+0     94   0   1   439  6.1  lcd_putc
+0    212   1   3   846  2.9  mensajes
+0     20   0   0             @const333
+0     32   0   2             @PSTRINGC_230
+0     20   0   0             @const335
+0     20   0   0             @const336
+0     20   0   0             @const337
+0     20   0   0             @const338
+0     20   0   0             @const339
+0     20   0   0             @const340
+0     84   0   5   100  2.1  sensores
+0    442   1  21   592  7.7  Leer_Sensor_Presion
+0      2   0   0     5  1.0  EliminaRuido
+0     60   0   0   295  1.9  ConfigInterrupciones
+0    102   0   1   318  1.8  MensajeBienvenida
+0     22   0   0             @const353
+0     22   0   0             @const354
+0     22   0   0             @const355
+0     22   0   0             @const356
+0    670   2   1  1423  2.9  LeeEEPROM
+0    950   3   1  2228  4.9  LimitaValores
+0    120   0   0   738  4.3  ext0
+0     50   0   0   284  4.6  temp0s
+0    184   1   1  1195  6.3  temp1s
+0   8006  23   4 50128 12.5  MAIN
+0     22   0   0             @const369
+0     22   0   0             @const370
+0     22   0   0             @const371
+0     32   0   3             @PSTRINGCN_230
+0     40   0   3             @DIV88
+0    208   1   6             @PRINTF_D_230
+0     20   0   0             @const382
+0     20   0   0             @const383
+0     20   0   0             @const384
+0     20   0   0             @const385
+0     20   0   0             @const388
+0     20   0   0             @const389
+0     20   0   0             @const390
+0     22   0   0             @const392
+0     22   0   0             @const395
+0     22   0   0             @const396
+0     18   0   0             @const397
+0    108   0   2             @PRINTF_U_230
+0     18   0   0             @const403
+0     18   0   0             @const404
+0     22   0   0             @const406
+0     22   0   0             @const407
+0     22   0   0             @const408
+0     22   0   0             @const412
+0     22   0   0             @const413
+0     22   0   0             @const414
+0     22   0   0             @const415
+0     22   0   0             @const417
+0     22   0   0             @const418
+0     22   0   0             @const419
+0     22   0   0             @const420
+0     22   0   0             @const422
+0     22   0   0             @const423
+0     22   0   0             @const424
+0     22   0   0             @const428
+0     22   0   0             @const429
+0     22   0   0             @const430
+0     22   0   0             @const431
+0     22   0   0             @const433
+0     20   0   0             @const434
+0    182   1   9             @PRINTF_LU_230
+0     22   0   0             @const437
+0     18   0   0             @const439
+0     18   0   0             @const440
+0     22   0   0             @const443
+0     22   0   0             @const444
+0     64   0   5             @FTOSD
+0    172   1  13             @DIV3232
+0    398   1  13             @PRINTF_L32D_230FPFPF
+0     14   0   0             @const453
+0     14   0   0             @const454
+0     22   0   0             @const457
+0     22   0   0             @const458
+0     22   0   0             @const459
+0     22   0   0             @const460
+0     22   0   0             @const461
+0     22   0   0             @const462
+0     22   0   0             @const463
+0     22   0   0             @const464
+0     22   0   0             @const466
+0     22   0   0             @const467
+0     20   0   0             @const468
+0     22   0   0             @const469
+0     22   0   0             @const471
+0     22   0   0             @const472
+0     22   0   0             @const473
+0     22   0   0             @const474
+0     22   0   0             @const476
+0     16   0   0             @const479
+0     22   0   0             @const481
+0     22   0   0             @const482
+0     22   0   0             @const483
+0     22   0   0             @const484
+0      8   0   0             @const486
+0     10   0   0             @const487
+0     10   0   0             @const488
+0      8   0   0             @const489
+0      8   0   0             @const490
+0      8   0   0             @const491
+0      8   0   0             @const492
+
+Program metrics:
+    Functions               19
+    Statements              1634
+    Comments                703
+    Volume (V)              73202
+    Difficilty (D)          86.3
+    Effort to implement (E) 6315323
+    Time to implement (T)   97 hours, 28 minutes
+    Est Delivered Bugs (B)  11
+    Cyclomatic Complexity   217
+    Maintainability (MI)    53
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     2  2  
+00008-0013E   312  0  
+00140-07FFE  16740  15708  
+
+
+

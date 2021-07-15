@@ -1,0 +1,147 @@
+
+ROM used: 8720 (27%)
+          8720 (27%) including unused fragments
+
+          7 Average locations per line
+          11 Average locations per statement
+
+RAM used: 64 (3%) at main() level
+          81 (4%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  647   734  91  Cabina_Flujo_Vertical_V03.c
+  451     0   0  C:\Program Files\PICC\Devices\18F4550.h
+  171    74   9  LCD420.c
+----- -----
+ 1269   808 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0   1             @delay_ms1
+0     30   0   0             @const73
+0     64   0   3   463  4.3  lcd_read_byte
+0     32   0   1   134  2.2  lcd_send_nibble
+0     54   0   3   317  4.3  lcd_send_byte
+0     90   1   2   422  4.7  lcd_init
+0     54   0   3   321  5.5  lcd_gotoxy
+0     44   0   0             @goto10091
+0     94   1   1   439  6.1  lcd_putc
+0     64   0   1   270  3.2  temp1s
+0    240   1   3  1207  2.9  mensajes
+0     20   0   0             @const132
+0     32   0   2             @PSTRINGC_95
+0     20   0   0             @const134
+0     20   0   0             @const135
+0     20   0   0             @const136
+0     20   0   0             @const137
+0     20   0   0             @const138
+0     20   0   0             @const139
+0     20   0   0             @const140
+0     20   0   0             @const141
+0    108   1   1   974  2.9  velocidades
+0   5350  31   2 32337  9.5  MAIN
+0     22   0   0             @const146
+0     22   0   0             @const147
+0     22   0   0             @const148
+0     22   0   0             @const149
+0     22   0   0             @const151
+0     22   0   0             @const152
+0     22   0   0             @const153
+0     30   0   3             @PSTRINGCN_95
+0     40   0   3             @DIV88
+0    200   1   6             @PRINTF_D_95
+0     20   0   0             @const164
+0     20   0   0             @const165
+0     20   0   0             @const166
+0     20   0   0             @const167
+0     20   0   0             @const170
+0     20   0   0             @const171
+0     20   0   0             @const172
+0     22   0   0             @const174
+0     22   0   0             @const176
+0     22   0   0             @const177
+0     22   0   0             @const178
+0     22   0   0             @const179
+0     22   0   0             @const180
+0     22   0   0             @const181
+0     22   0   0             @const182
+0     22   0   0             @const183
+0     22   0   0             @const184
+0     22   0   0             @const185
+0     22   0   0             @const186
+0     22   0   0             @const187
+0     22   0   0             @const189
+0     22   0   0             @const190
+0     22   0   0             @const191
+0     22   0   0             @const192
+0     22   0   0             @const193
+0     22   0   0             @const194
+0     22   0   0             @const195
+0     22   0   0             @const196
+0     22   0   0             @const197
+0     22   0   0             @const198
+0     22   0   0             @const199
+0     22   0   0             @const200
+0     22   0   0             @const202
+0     22   0   0             @const203
+0     22   0   0             @const204
+0     22   0   0             @const205
+0     22   0   0             @const206
+0     22   0   0             @const207
+0     22   0   0             @const208
+0     22   0   0             @const209
+0     22   0   0             @const211
+0     22   0   0             @const212
+0     22   0   0             @const214
+0     22   0   0             @const215
+0     22   0   0             @const216
+0     22   0   0             @const217
+0     22   0   0             @const219
+0     22   0   0             @const220
+0     22   0   0             @const221
+0     22   0   0             @const224
+0     22   0   0             @const225
+0     22   0   0             @const226
+0     22   0   0             @const227
+0     22   0   0             @const229
+0     22   0   0             @const230
+0     22   0   0             @const231
+0     22   0   0             @const232
+0     22   0   0             @const234
+0     22   0   0             @const235
+0     22   0   0             @const236
+0     22   0   0             @const239
+0     22   0   0             @const240
+0     22   0   0             @const241
+0     22   0   0             @const242
+0     22   0   0             @const243
+0     20   0   0             @const244
+0    180   1   9             @PRINTF_LU_95
+0     22   0   0             @const247
+0     18   0   0             @const249
+0     18   0   0             @const250
+
+Program metrics:
+    Functions               10
+    Statements              808
+    Comments                269
+    Volume (V)              42328
+    Difficilty (D)          44.7
+    Effort to implement (E) 1890439
+    Time to implement (T)   29 hours, 10 minutes
+    Est Delivered Bugs (B)  5
+    Cyclomatic Complexity   123
+    Maintainability (MI)    103
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-00094   142  0  
+00096-07FFE  8574  24044  
+
+
+

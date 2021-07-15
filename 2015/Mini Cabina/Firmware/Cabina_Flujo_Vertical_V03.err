@@ -1,0 +1,4 @@
+>>> Warning 202 "Cabina_Flujo_Vertical_V03.c" Line 44(13,20): Variable never used:   tiempo2
+>>> Warning 202 "Cabina_Flujo_Vertical_V03.c" Line 45(13,25): Variable never used:   temporizador
+      Memory usage:   ROM=27%      RAM=3% - 4%
+      0 Errors,  2 Warnings.

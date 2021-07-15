@@ -1,0 +1,4 @@
+>>> Warning 202 "CabinaCFLH.c" Line 45(6,11): Variable never used:   letra
+>>> Warning 202 "CabinaCFLH.c" Line 65(5,16): Variable never used:   Flancomotor
+      Memory usage:   ROM=62%      RAM=14% - 16%
+      0 Errors,  2 Warnings.

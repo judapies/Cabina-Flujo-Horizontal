@@ -1,0 +1,9 @@
+>>> Warning 202 "Maestro_v2.c" Line 46(134,145): Variable never used:   flag_alarma
+>>> Warning 202 "Maestro_v2.c" Line 51(7,18): Variable never used:   Baje_Vidrio
+>>> Warning 202 "Maestro_v2.c" Line 54(51,56): Variable never used:   Motor
+>>> Warning 202 "Maestro_v2.c" Line 54(76,77): Variable never used:   e
+>>> Warning 202 "Maestro_v2.c" Line 54(80,81): Variable never used:   m
+>>> Warning 202 "Maestro_v2.c" Line 67(18,26): Variable never used:   Downflow
+>>> Warning 202 "Maestro_v2.c" Line 75(7,13): Variable never used:   Vector
+      Memory usage:   ROM=39%      RAM=48% - 50%
+      0 Errors,  7 Warnings.

@@ -1,0 +1,180 @@
+
+ROM used: 19614 (60%)
+          19616 (60%) including unused fragments
+
+          4 Average locations per line
+          11 Average locations per statement
+
+RAM used: 228 (11%) at main() level
+          265 (13%) worst case
+
+Stack used: 7 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+ 1280  1251  67  CabinaCFLH.c
+  451     0   0  C:\Program Files (x86)\PICC\Devices\18F4550.h
+ 2172   260  14  MATH.h
+  172    73   4  LCD420.c
+  297   280  15  Funciones.h
+----- -----
+ 4372  1864 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0   1             @delay_ms1
+0    826   2  20  1124 10.7  CEIL_FLOOR
+0    118   0  10             @FLT
+0     56   0   4             @SFTOI
+0     54   0   2             @ITOF
+0    424   1  14             @DIVFF
+0    642   2  16             @ADDFF
+0    242   1  11             @MULFF
+0     22   0   4    43  2.1  floor
+0     36   0   0             @const208
+0     38   0   1   134  2.2  lcd_send_nibble
+0     66   0   3   287  3.9  lcd_send_byte
+0     94   0   2   422  4.7  lcd_init
+0     56   0   3   321  5.5  lcd_gotoxy
+0     50   0   0             @goto10582
+0    102   0   1   439  6.1  lcd_putc
+0    184   0   3   846  2.9  mensajes
+0     20   0   0             @const327
+0     32   0   2             @PSTRINGC_230
+0     20   0   0             @const329
+0     20   0   0             @const330
+0     20   0   0             @const331
+0     20   0   0             @const332
+0     20   0   0             @const333
+0     20   0   0             @const334
+0     86   0   5   100  2.1  sensores
+0    430   1  21   592  7.7  Leer_Sensor_Presion
+0      2   0   0     5  1.0  EliminaRuido
+0     60   0   0   295  1.9  ConfigInterrupciones
+0    104   0   1   318  1.8  MensajeBienvenida
+0     22   0   0             @const347
+0     22   0   0             @const348
+0     22   0   0             @const349
+0     22   0   0             @const350
+0    926   2   4  1940  3.0  LeeEEPROM
+0   1388   4   1  3325  5.0  LimitaValores
+0    428   1   1   718  5.3  cuentaTiempoTrabajoFiltro
+0    428   1   0  3414  4.5  ext0
+0     50   0   0   284  4.6  temp0s
+0    194   0   1  1256  6.3  temp1s
+0   9048  23   4 55965 13.0  MAIN
+0     22   0   0             @const365
+0     22   0   0             @const366
+0     22   0   0             @const367
+0     30   0   3             @PSTRINGCN_230
+0     40   0   3             @DIV88
+0    102   0   2             @PRINTF_U_230
+0     22   0   0             @const376
+0     22   0   0             @const377
+0     22   0   0             @const378
+0     22   0   0             @const379
+0     22   0   0             @const380
+0     22   0   0             @const382
+0     22   0   0             @const383
+0     22   0   0             @const384
+0     22   0   0             @const385
+0     22   0   0             @const387
+0     22   0   0             @const388
+0     22   0   0             @const389
+0    200   1   6             @PRINTF_D_230
+0     20   0   0             @const395
+0     20   0   0             @const396
+0     20   0   0             @const397
+0     20   0   0             @const398
+0     20   0   0             @const401
+0     20   0   0             @const402
+0     20   0   0             @const403
+0     22   0   0             @const405
+0     22   0   0             @const408
+0     22   0   0             @const409
+0     18   0   0             @const410
+0     18   0   0             @const413
+0     18   0   0             @const414
+0     22   0   0             @const416
+0     22   0   0             @const417
+0     22   0   0             @const418
+0     22   0   0             @const422
+0     22   0   0             @const423
+0     22   0   0             @const424
+0     22   0   0             @const425
+0     22   0   0             @const427
+0     22   0   0             @const428
+0     22   0   0             @const429
+0     22   0   0             @const430
+0     22   0   0             @const432
+0     22   0   0             @const433
+0     22   0   0             @const434
+0     22   0   0             @const438
+0     22   0   0             @const439
+0     22   0   0             @const440
+0     22   0   0             @const441
+0     22   0   0             @const443
+0     20   0   0             @const444
+0    178   0   9             @PRINTF_LU_230
+0     22   0   0             @const447
+0     18   0   0             @const449
+0     18   0   0             @const450
+0     22   0   0             @const453
+0     22   0   0             @const454
+0     64   0   5             @FTOSD
+0    122   0  13             @DIV3232
+0    390   1  13             @PRINTF_L32D_230FPFPF
+0     14   0   0             @const463
+0     14   0   0             @const464
+0     22   0   0             @const467
+0     22   0   0             @const468
+0     22   0   0             @const469
+0     22   0   0             @const470
+0     22   0   0             @const471
+0     22   0   0             @const472
+0     22   0   0             @const473
+0     22   0   0             @const474
+0     22   0   0             @const476
+0     22   0   0             @const477
+0     22   0   0             @const478
+0     22   0   0             @const479
+0     22   0   0             @const481
+0     22   0   0             @const482
+0     22   0   0             @const483
+0     22   0   0             @const484
+0     22   0   0             @const486
+0     22   0   0             @const487
+0     16   0   0             @const490
+0      8   0   0             @const491
+0     10   0   0             @const492
+0     10   0   0             @const493
+0      8   0   0             @const494
+0      8   0   0             @const495
+0      8   0   0             @const496
+0      8   0   0             @const497
+0     22   0   0             @const499
+0     22   0   0             @const500
+0     22   0   0             @const501
+0     22   0   0             @const502
+
+Program metrics:
+    Functions               20
+    Statements              1864
+    Comments                606
+    Volume (V)              87629
+    Difficilty (D)          92.2
+    Effort to implement (E) 8083541
+    Time to implement (T)   124 hours, 45 minutes
+    Est Delivered Bugs (B)  13
+    Cyclomatic Complexity   252
+    Maintainability (MI)    90
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     2  2  
+00008-0013E   312  0  
+00140-07FFE  19296  13152  
+
+
+

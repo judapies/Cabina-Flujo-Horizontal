@@ -1,0 +1,253 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     lcdline
+017     Menu
+018     n_opcionH
+019     n_opcionL
+01A     unidad
+01B     Flecha
+01C     Flecha1
+01D     Flecha2
+01E     nMenuL
+01F     nMenuH
+020     segundos
+021     minutos
+022.0   estadouv
+022.1   estadofl
+022.2   estadomv
+022.3   Flanco
+022.4   Flanco1
+022.5   Flanco2
+022.6   Flanco3
+023     paso
+024     Velocidad
+025-027 t
+028-02B clave
+02C-02F contrasena
+030-031 tiempos
+032-033 horas
+034-038 tiempo2
+039-03D temporizador
+03E     lcd_init.i
+03E     @PSTRINGCN_95.P1
+03E-03F @PRINTF_LU_95.P2
+03E     @PRINTF_D_95.P3
+03E     MAIN.@SCRATCH1
+03F     mensajes.x
+03F     @PRINTF_D_95.P1
+03F     lcd_init.@SCRATCH1
+03F     MAIN.@SCRATCH2
+03F     @PSTRINGCN_95.@SCRATCH1
+040     mensajes.y
+040     velocidades.x
+040     @PSTRINGCN_95.@SCRATCH2
+040     @PRINTF_D_95.@SCRATCH1
+040     @PRINTF_LU_95.@SCRATCH1
+041     mensajes.@SCRATCH1
+041     @PSTRINGC_95.@SCRATCH1
+041     @PRINTF_D_95.@SCRATCH2
+041     @PRINTF_LU_95.@SCRATCH2
+042     @PSTRINGC_95.@SCRATCH2
+042     @PRINTF_D_95.@SCRATCH3
+042     @PRINTF_LU_95.@SCRATCH3
+043     @PRINTF_D_95.@SCRATCH4
+043     @PRINTF_LU_95.@SCRATCH4
+044     @DIV88.P1
+044     @PRINTF_LU_95.@SCRATCH5
+045     @DIV88.P1
+045     @PRINTF_LU_95.@SCRATCH6
+046     @DIV88.@SCRATCH1
+046     @PRINTF_LU_95.@SCRATCH7
+047     lcd_putc.c
+048     @delay_ms1.P1
+048     lcd_gotoxy.x
+049     lcd_gotoxy.y
+04A     lcd_gotoxy.address
+04B     lcd_send_byte.address
+04C     lcd_send_byte.n
+04D     lcd_read_byte.low
+04D     lcd_send_byte.@SCRATCH1
+04E     lcd_send_nibble.n
+04E     lcd_read_byte.high
+04F     lcd_read_byte.@SCRATCH1
+050     temp1s.@SCRATCH1
+F81     lcd
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1
+FBE     CCP_1_LOW
+FBF     CCP_1_HIGH
+FE1-FE2 @READ_PACKED_MEMORY.P1
+FE1-FE2 @WRITE_PACKED_MEMORY.P2
+FE9-FEA @WRITE_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @READ_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+0818  @delay_ms1
+0096  LCD_INIT_STRING
+0860  lcd_read_byte
+0840  lcd_send_nibble
+08A0  lcd_send_byte
+08D6  lcd_init
+0930  lcd_gotoxy
+0966  @goto10091
+0992  lcd_putc
+00B4  temp1s
+0B1E  mensajes
+00F4  @const132
+09F0  @PSTRINGC_95
+0108  @const134
+011C  @const135
+0130  @const136
+0144  @const137
+0158  @const138
+016C  @const139
+0180  @const140
+0194  @const141
+0C0E  velocidades
+0D2E  MAIN
+01A8  @const146
+01BE  @const147
+01D4  @const148
+01EA  @const149
+0200  @const151
+0216  @const152
+022C  @const153
+0A10  @PSTRINGCN_95
+0A2E  @DIV88
+0A56  @PRINTF_D_95
+0242  @const164
+0256  @const165
+026A  @const166
+027E  @const167
+0292  @const170
+02A6  @const171
+02BA  @const172
+02CE  @const174
+02E4  @const176
+02FA  @const177
+0310  @const178
+0326  @const179
+033C  @const180
+0352  @const181
+0368  @const182
+037E  @const183
+0394  @const184
+03AA  @const185
+03C0  @const186
+03D6  @const187
+03EC  @const189
+0402  @const190
+0418  @const191
+042E  @const192
+0444  @const193
+045A  @const194
+0470  @const195
+0486  @const196
+049C  @const197
+04B2  @const198
+04C8  @const199
+04DE  @const200
+04F4  @const202
+050A  @const203
+0520  @const204
+0536  @const205
+054C  @const206
+0562  @const207
+0578  @const208
+058E  @const209
+05A4  @const211
+05BA  @const212
+05D0  @const214
+05E6  @const215
+05FC  @const216
+0612  @const217
+0628  @const219
+063E  @const220
+0654  @const221
+066A  @const224
+0680  @const225
+0696  @const226
+06AC  @const227
+06C2  @const229
+06D8  @const230
+06EE  @const231
+0704  @const232
+071A  @const234
+0730  @const235
+0746  @const236
+075C  @const239
+0772  @const240
+0788  @const241
+079E  @const242
+07B4  @const243
+07CA  @const244
+0C7A  @PRINTF_LU_95
+07DE  @const247
+07F4  @const249
+0806  @const250
+0D2E  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    E:\JP\JP\Laboratorio\Cabina de Flujo Laminar Horizontal\2015\Mini Cabina\Firmware\
+
+Project Files:
+    Cabina_Flujo_Vertical_V03.c
+    C:\Program Files\PICC\Devices\18F4550.h
+    LCD420.c
+
+Units:
+    E:\JP\JP\Laboratorio\Cabina de Flujo Laminar Horizontal\2015\Mini Cabina\Firmware\Cabina_Flujo_Vertical_V03 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4550
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      Cabina_Flujo_Vertical_V03.err
+    Ext Symbols: Cabina_Flujo_Vertical_V03.esym
+    INHX32:      Cabina_Flujo_Vertical_V03.hex
+    Symbols:     Cabina_Flujo_Vertical_V03.sym
+    List:        Cabina_Flujo_Vertical_V03.lst
+    Debug/COFF:  Cabina_Flujo_Vertical_V03.cof
+    Project:     Cabina_Flujo_Vertical_V03.PJT
+    Call Tree:   Cabina_Flujo_Vertical_V03.tre
+    Statistics:  Cabina_Flujo_Vertical_V03.sta
